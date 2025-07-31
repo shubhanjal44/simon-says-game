@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <button class="sound-toggle" id="soundToggle">🔊</button>
+    
+    <div class="game-container">
+        <h1>SIMON SAYS</h1>
+        
+        <div class="score-display">
+            <div class="score-item">
+                <div>Level</div>
+                <div id="levelDisplay">0</div>
+            </div>
+            <div class="score-item">
+                <div>Best</div>
+                <div id="bestScore">0</div>
+            </div>
+            <div class="score-item">
+                <div>Speed</div>
+                <div id="speedDisplay">1x</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBar"></div>
+        </div>
+
+        <div class="status" id="gameStatus">Press Start to Begin!</div>
+        
+        <button class="start-btn" id="startBtn">START GAME</button>
+        
+        <div class="game-board">
+            <div class="color-btn pink-box" id="pink" data-color="pink">
+                <div class="sequence-display" id="seq-pink"></div>
+            </div>
+            <div class="color-btn blue-box" id="blue" data-color="blue">
+                <div class="sequence-display" id="seq-blue"></div>
+            </div>
+            <div class="color-btn orange-box" id="orange" data-color="orange">
+                <div class="sequence-display" id="seq-orange"></div>
+            </div>
+            <div class="color-btn light-blue-box" id="light-blue" data-color="light-blue">
+                <div class="sequence-display" id="seq-light-blue"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="celebration" id="celebration"></div>
+
+ <script src="script.js"></script>
+</body>
+</html>

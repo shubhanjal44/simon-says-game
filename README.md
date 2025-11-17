@@ -29,3 +29,20 @@ This project intentionally avoids all frameworks and libraries to demonstrate:
 - LocalStorage API
 
 **No React. No Vue. No jQuery. No libraries. Just code.**
+
+TECHNICAL SKILLS
+
+Languages & Core:
+• JavaScript (ES6+): Advanced - Classes, Async/Await, Promises, Closures
+• HTML5: Semantic markup, Canvas, Audio API
+• CSS3: Animations, Flexbox, Grid, Custom Properties
+
+Vanilla JavaScript Expertise:
+• DOM Manipulation & Event Handling (no jQuery)
+• Object-Oriented Programming (ES6 Classes)
+• Asynchronous Programming (Promises, Async/Await)
+• Web APIs: Audio, LocalStorage, Canvas
+
+Frameworks (for comparison):
+• React, Node.js, Express (but proven ability to build without them)
+
